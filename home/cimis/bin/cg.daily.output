@@ -1,0 +1,4 @@
+#!/bin/bash
+
+#grass -c ~/gdb/cimis/$(date --iso --date="yesterday") --exec cg sec=png-special cmd=zipcode,html $1
+cg sec=png-special cmd=zipcode,html $1
